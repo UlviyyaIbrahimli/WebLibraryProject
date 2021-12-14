@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/LibraryProject"
+              global="jdbc/MyDB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="oracle.jdbc.driver.OracleDriver"
+              url="jdbc:oracle:thin:@localhost:1521:XE"
+              username="LIBRARY_DESKTOP"
+              password="12345"
+              maxActive="100"
+              maxIdle="20"
+              minIdle="5"
+              maxWait="10000">
+    </Resource>
+</Context>
